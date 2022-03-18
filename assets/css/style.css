@@ -1,0 +1,318 @@
+body {
+    background: #E5E5E5;
+    font-family: 'Raleway', sans-serif;
+}
+
+.cabecalho {
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+    margin: 32px 0;
+    padding: 0 152px;    
+}
+
+.cabecalho__logo {
+    width: 176px;
+    height: 50px;
+}
+/* 
+@media screen and (min-width: 0) {
+    .cabecalho {
+       margin-left: 16px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho {
+        margin-left: 32px;
+    }
+} */
+
+.cabecalho__botao-login {
+    width: 182px;
+    height: 51px;    
+    margin-right: 0;
+    padding: 12px 16px;
+    box-sizing: border-box;
+    border: 1px solid #2A7AE4;    
+    border-radius: 5%;
+    color: #2A7AE4;
+
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+}
+/* 
+@media screen and (min-width: 0) {
+    margin-right: 75.5px;
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho__botao-login {
+       
+    }
+} */
+
+.input {
+    background: #F5F5F5;
+    width: 393px;
+    height: 40px;    
+    font-size: 14px;
+    font-weight: 400;    
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 480px;    
+    border-color: #F5F5F5;
+    box-sizing: border-box;
+    padding: 8px 16px;        
+    left: calc(50% - 393px/2 + 104px);
+    top: 5px;
+}
+
+.input--icone {
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.input--lupa {
+    background-image: url(../img/icones/lupa.svg);
+}
+
+.banner {
+    position: relative;
+    
+}
+
+.banner__imagem {       
+    background-image: url(../../assets/img/banner-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    width: 1440px; 
+    height: 352px;       
+    padding: 32px;
+    width: 100%;
+}
+
+@media screen and (min-width: 0) {
+    .banner__imagem {
+        height: 192px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner__imagem {
+        height: 352px;
+    }
+}
+
+.banner__titulo {    
+    font-size: 52px;
+    font-weight: 700;
+    color: #FFFFFF;        
+    margin-left: 152px;
+    margin-top: 160px;  
+    
+}
+
+@media screen and (min-width: 0) {
+    .banner__titulo {
+        font-size: 22px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-top: 78px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner__titulo {
+        font-size: 52px;
+        margin-left: 32px;
+        margin-right: 32px;
+        margin-top: 161px;
+    }
+}
+
+.banner__descricao {
+    font-size: 22px;
+    font-weight: 700;
+    color: #FFFFFF;   
+    margin-left: 152px;   
+    margin-top: 16px;
+
+}
+
+@media screen and (min-width: 0) {
+    .banner__descricao {
+        font-size: 14px;
+        margin-left: 16px;   
+        margin-top: 8px;     
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner__descricao {
+        font-size: 22px;
+        margin-left: 32px;
+    }
+}
+
+.banner__botao {    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.78px;    
+    width: 130px;
+    height: 51px;
+    left: 0;
+    top: 119px;
+    background: #2A7AE4;
+    color: #FFFFFF;
+    margin-left: 152px;
+    margin-top: 16px;   
+}
+
+@media screen and (min-width: 0) {
+    .banner__botao {
+        margin-left: 16px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner__botao {
+        margin-left: 32px;
+    }
+}
+
+.produtos {
+    padding: 32px 152px 16px 152px;
+}
+
+
+
+.produtos__starwars__link {
+    display: flex;
+    align-items: flex-end;
+    margin-right: 152px;
+}
+
+.produtos__starwars__link--icone {
+    background-repeat: no-repeat;
+    background-position: right;
+    background-image: url(../img/icones/arrow_back_black_24dp\ 1.svg);
+}
+
+.cartao__lista {
+    display: flex;    
+    justify-content: space-between;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 64px;
+    margin-bottom: 16px;
+}
+
+h4 {
+    color: #464646;
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 8px;    
+}
+
+p {
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+a {
+    font-size: 16px;
+    font-weight: 700;
+    color: #2A7AE4;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;    
+    padding: 64px;
+}
+
+.informacoes-rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;   
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 700;
+    align-self: flex-start;
+    padding-bottom: 8px;
+}
+
+.nome__usuario {
+    background: #FFFFFF;
+    color: #A2A2A2;    
+    font-size: 12px;
+    font-weight: 400;
+    width: 560px;
+    height: 56px;
+    border-radius: 4px;
+    gap: 4px;
+    margin-bottom: 16px;
+    left: calc(50% - 560px/2);
+}
+
+.mensagem__usuario {
+    background: #FFFFFF;
+    color: #A2A2A2;
+    width: 560px;
+    height: 82px;
+    border-radius: 4px;
+    gap: 4px;    
+    margin-bottom: 8px;
+    left: calc(50% - 560px/2);
+}
+
+.botao__mensagem {
+    background: #2A7AE4;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.creator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 32px;
+
+    font-size: 16px;
+    font-weight: 500;    
+}
+
+h5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 32px;
+
+    font-size: 16px;
+    font-weight: 500;
+    
+}
