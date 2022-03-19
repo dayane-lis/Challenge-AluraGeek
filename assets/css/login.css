@@ -1,0 +1,47 @@
+.login__titulo {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 128px;
+    margin-bottom: 24.89px;
+    
+}
+
+.login__usuario {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.email__usuario {
+    width: 423px;
+    height: 63.13px;
+    border-radius: 4px;
+    left: calc(50% - 423px/2 - 0.5px);
+    top: 259.89px;
+    margin-bottom: 24.63px;
+}
+
+.senha__usuario {
+    width: 423px;
+    height: 63px;
+    border-radius: 4px;
+    left: calc(50% - 423px/2);
+    top: 24.63px;
+    margin-bottom: 24.63px;
+}
+
+.botao__login {
+    background: #2A7AE4;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    width: 423px;
+    height: 62px;
+    left: 508px;
+    top: 435px;
+    margin-bottom: 91px;
+}

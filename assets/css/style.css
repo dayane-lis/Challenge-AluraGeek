@@ -1,9 +1,9 @@
 body {
-    background: #E5E5E5;
+    background: #FFFFFF;
     font-family: 'Raleway', sans-serif;
 }
 
-.cabecalho {
+.cabecalho {    
     display: flex;    
     justify-content: space-between;
     align-items: center;
@@ -180,6 +180,7 @@ body {
 }
 
 .produtos {
+    background: #E5E5E5;
     padding: 32px 152px 16px 152px;
 }
 
@@ -246,7 +247,7 @@ a {
     justify-content: space-evenly;
 }
 
-form {
+.mensagem {
     display: flex;
     flex-direction: column;
     align-items: flex-start;   
@@ -260,8 +261,7 @@ h3 {
 }
 
 .nome__usuario {
-    background: #FFFFFF;
-    color: #A2A2A2;    
+    background: #FFFFFF;        
     font-size: 12px;
     font-weight: 400;
     width: 560px;
@@ -273,8 +273,7 @@ h3 {
 }
 
 .mensagem__usuario {
-    background: #FFFFFF;
-    color: #A2A2A2;
+    background: #FFFFFF;    
     width: 560px;
     height: 82px;
     border-radius: 4px;
