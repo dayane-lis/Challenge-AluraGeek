@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="stylesheet" href="assets/login.js">
 </head>
 <body>
     <header class="container cabecalho">
@@ -17,11 +18,11 @@
         <button class="cabecalho__botao-login">Login</button>
     </header>  
     <section class="content">
-        <div class="login">
+        <div id="modal" class="login">
             <h3 class="login__titulo">Iniciar sessão</h3>
             <form class="login__usuario" method="post" action="#">                    
                 <input class="email__usuario" type="text" name="email" placeholder="Escreva seu e-mail">
-                <input class="senha__usuario" type="text" name="senha" placeholder="Escreva sua senha">
+                <input class="senha__usuario" type="password" name="senha" placeholder="Escreva sua senha">
                 <input class="botao__login" type="submit" value="Entrar">
             </form>
         </div>

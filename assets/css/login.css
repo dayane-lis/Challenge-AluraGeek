@@ -45,3 +45,26 @@
     top: 435px;
     margin-bottom: 91px;
 }
+
+#modal {
+    opacity: 0;
+    transform: translateX(-20px);
+}
+
+#modal.login {
+    animation-name: slide;
+    animation-duration: .6s; 
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+
+@keyframes slide {
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
