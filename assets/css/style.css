@@ -149,7 +149,8 @@ body {
 @media screen and (max-width: 360px) {
     .banner__titulo {
         font-size: 22px;
-        padding: 16px;
+        padding: 0px;
+        margin-left: 16px;
         margin-top: 40%;
     }
 }
@@ -157,7 +158,8 @@ body {
 @media screen and (max-width: 768px) {
     .banner__titulo {
         font-size: 52px;
-        padding: 32px;        
+        padding: 0px; 
+        margin-left: 32px;
         margin-top: 15%;
     }
 }
@@ -219,15 +221,12 @@ body {
 .produtos__barra-titulo {
     position: relative;
     display: flex;
-    justify-content: space-between;
-    
-    
+    justify-content: space-between;    
 }
 
 .produtos__link {
     margin-top: 73.5px;
-    margin-bottom: 25.5px;
-    
+    margin-bottom: 25.5px;    
 }
 
 .cartao__lista {
@@ -275,10 +274,12 @@ a {
 
 @media screen and (max-width: 360px) {
     .rodape {
+        display: flex;
         flex-direction: column;
         justify-content: space-between;
-        padding: 16px;
         align-items: center;
+        padding: 0px;
+        margin: 16px auto;
     }
 }
 
@@ -296,6 +297,16 @@ a {
     }
 }
 
+@media screen  and (max-width:360px) {
+    .contato {
+        display: flex;
+        flex-direction: column;
+        width:  340px;
+        padding: 16px;
+        margin: 16px auto;
+    }
+}
+
 .mensagem {
     display: flex;
     flex-direction: column;
@@ -307,6 +318,7 @@ h3 {
     font-weight: 700;
     align-self: flex-start;
     padding-bottom: 8px;
+    margin-left: 16px;
 }
 
 .nome__usuario {
@@ -323,13 +335,16 @@ h3 {
 
 @media screen and (max-width: 360px) {
     .nome__usuario {
-        width: 328px;
-        height: 26px;
+        display: inline-block;
+        width: 260px;
+        height: 56px;
+        margin: 16px;
     }
 }
 
 @media screen and (max-width: 768px){
     .nome__usuario {
+        display: inline-block;
         width: 434px;
         height: 56px;
     }
@@ -369,6 +384,12 @@ h3 {
     justify-content: center;
     align-items: center;
     padding: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .botao__mensagem {
+        margin: 16px 187px 8px 16px;
+    }
 }
 
 .creator {
