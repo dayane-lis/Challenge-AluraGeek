@@ -1,3 +1,3 @@
 ativar.addEventListener('click', () => {
-    modal.classList.toggle('login');
+    modal.classList.toggle('botao__login');
 });
