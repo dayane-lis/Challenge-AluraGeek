@@ -59,6 +59,7 @@ h3 {
     background: #FFFFFF;        
     font-size: 12px;
     font-weight: 400;
+    border-color: transparent;
     width: 560px;
     height: 56px;
     border-radius: 4px;
@@ -88,6 +89,7 @@ h3 {
     background: #FFFFFF;    
     width: 560px;
     height: 82px;
+    border-color: transparent;
     border-radius: 4px;
     gap: 4px;    
     margin-bottom: 8px;

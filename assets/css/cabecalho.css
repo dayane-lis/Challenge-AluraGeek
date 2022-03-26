@@ -35,8 +35,7 @@
 
 @media screen and (max-width: 768px) {
     .cabecalho__logo {
-        width: 100px;
-        height: 28px;
+        width: 100px;       
     }
 }
 
@@ -78,10 +77,10 @@
     height: 40px;    
     font-size: 14px;
     font-weight: 400;    
-    border-radius: 20px;
+    border-radius: 20px;    
     margin-left: 20px;
     margin-right: 480px;    
-    border-color: #F5F5F5;
+    border-color: transparent;
     box-sizing: border-box;
     padding: 8px 16px;        
     left: calc(50% - 393px/2 + 104px);
