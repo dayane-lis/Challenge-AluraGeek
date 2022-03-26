@@ -3,125 +3,15 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-.cabecalho {    
-    display: flex;    
-    justify-content: space-between;
-    align-items: center;
-    margin: 32px 0;
-    padding: 0 152px;    
-}
-
-@media screen and (max-width: 360px) {
-    .cabecalho {
-        display: inline-block;
-        padding-left: 16px;
-        padding-right: 16px;
-        
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .cabecalho {
-       padding-left: 32px;
-       padding-right: 32px;
-    }
-}
-
-.cabecalho__logo {
-    width: 176px;
-    height: 50px;
-}
-
-@media screen and (max-width: 360px) {
-    .cabecalho__logo {
-        width: 100px;
-        height: 28px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .cabecalho__logo {
-        width: 100px;
-        height: 28px;
-    }
-}
-
-.cabecalho__botao-login {
-    width: 182px;
-    height: 51px;    
-    margin-right: 0;
-    padding: 12px 16px;
-    box-sizing: border-box;
-    border: 1px solid #2A7AE4;    
-    border-radius: 5%;
-    color: #2A7AE4;
-
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 16px;
-}
-
-@media screen and (max-width: 360px) {
-    .cabecalho__botao-login{
-        margin: 16px 75.5px 16px 151.5px;        
-    }
-   
-}
-
-@media screen and (max-width: 768px) {
-    .cabecalho__botao-login {
-        width: 166px;
-        height: 40px;
-        margin-right: 134px;
-        margin-left: 32px;
-        margin-top: 16px;
-        margin-bottom: 16px;
-    }
-}
-
-.input {
-    background: #F5F5F5;
-    width: 393px;
-    height: 40px;    
-    font-size: 14px;
-    font-weight: 400;    
-    border-radius: 20px;
-    margin-left: 20px;
-    margin-right: 480px;    
-    border-color: #F5F5F5;
-    box-sizing: border-box;
-    padding: 8px 16px;        
-    left: calc(50% - 393px/2 + 104px);
-    top: 5px;
-}
-
-@media screen and (max-width: 768px) {
-    .input {
-        width: 272px;
-        margin: 12px 134px 12px 10px;
-    }
-}
-
-.input--icone {
-    background-repeat: no-repeat;
-    background-position: right;
-}
-
-.input--lupa {
-    background-image: url(../img/icones/lupa.svg);
-}
-
 .banner {
-    position: relative;
-    
+    position: relative;    
 }
 
 .banner__imagem {       
     background: url(../../assets/img/banner-image.png);
     background-repeat: no-repeat;
     background-size: cover; 
-    background-position: center; 
-    width: 100%;
+    background-position: center;     
     height: 352px;       
     padding: 32px 120px;      
 }
@@ -142,8 +32,7 @@ body {
     font-size: 52px;
     font-weight: 700;
     color: #FFFFFF;     
-    margin-top: 160px;  
-    
+    margin-top: 160px;      
 }
 
 @media screen and (max-width: 360px) {
@@ -169,7 +58,6 @@ body {
     font-weight: 700;
     color: #FFFFFF;    
     margin-top: 16px;
-
 }
 
 @media screen and (max-width: 360px) {
@@ -211,206 +99,4 @@ body {
     .banner__botao {
         margin-left: 32px;
     }
-}
-
-.produtos {
-    background: #E5E5E5;
-    padding: 32px 152px 16px 152px;
-}
-
-.produtos__barra-titulo {
-    position: relative;
-    display: flex;
-    justify-content: space-between;    
-}
-
-.produtos__link {
-    margin-top: 73.5px;
-    margin-bottom: 25.5px;    
-}
-
-.cartao__lista {
-    display: flex;    
-    justify-content: space-between;
-}
-
-h2 {
-    font-size: 32px;
-    font-weight: 700;
-    margin-top: 64px;
-    margin-bottom: 0px;
-}
-
-h4 {
-    color: #464646;
-    font-size: 14px;
-    font-weight: 500;
-    padding-top: 8px;    
-}
-
-p {
-    font-size: 16px;
-    font-weight: 700;
-    padding-top: 8px;
-    padding-bottom: 8px;
-}
-
-a {
-    font-size: 16px;
-    font-weight: 700;
-    color: #2A7AE4;
-    padding-top: 8px;
-    padding-bottom: 8px;
-}
-
-
-.rodape {
-    background: #EAF2FD;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;    
-    padding: 64px 120px;
-}
-
-@media screen and (max-width: 360px) {
-    .rodape {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        padding: 16px;        
-    }
-}
-
-.informacoes-rodape {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
-@media screen and (max-width: 360) {
-    .informacoes-rodape {
-        justify-content: space-between;
-        margin-top: 32px;
-        margin-bottom: 32px;
-        align-items: center;
-    }
-}
-
-@media screen  and (max-width:360px) {
-    .contato {
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
-        width:  340px;
-        padding: 16px;        
-    }
-}
-
-.mensagem {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;   
-}
-
-h3 {
-    font-size: 16px;
-    font-weight: 700;
-    align-self: flex-start;
-    padding-bottom: 8px;
-    margin-left: 16px;
-}
-
-.nome__usuario {
-    background: #FFFFFF;        
-    font-size: 12px;
-    font-weight: 400;
-    width: 560px;
-    height: 56px;
-    border-radius: 4px;
-    gap: 4px;
-    margin-bottom: 16px;
-    left: calc(50% - 560px/2);
-}
-
-@media screen and (max-width: 360px) {
-    .nome__usuario {
-        display: inline-block;
-        width: 260px;
-        height: 56px;
-        margin: 16px;
-    }
-}
-
-@media screen and (max-width: 768px){
-    .nome__usuario {
-        display: inline-block;
-        width: 434px;
-        height: 56px;
-    }
-}
-
-.mensagem__usuario {
-    background: #FFFFFF;    
-    width: 560px;
-    height: 82px;
-    border-radius: 4px;
-    gap: 4px;    
-    margin-bottom: 8px;
-    left: calc(50% - 560px/2);
-}
-
-@media screen and (max-width: 360px) {
-    .mensagem__usuario {
-        width: 328px;
-        height: 82px;
-        margin-left: 16px;
-        margin-right: 16px;        
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .mensagem__usuario {
-        width: 434px;
-        height: 82px;
-    }
-}
-
-.botao__mensagem {
-    background: #2A7AE4;
-    color: #FFFFFF;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 16px;
-}
-
-@media screen and (max-width: 768px) {
-    .botao__mensagem {
-        margin: 16px 187px 8px 16px;
-    }
-}
-
-.creator {
-    background: #FFFFFF;    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 32px;
-    
-    font-size: 16px;
-    font-weight: 500;    
-}
-
-h5 {
-    background: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 32px;
-
-    font-size: 16px;
-    font-weight: 500;
-    
 }
