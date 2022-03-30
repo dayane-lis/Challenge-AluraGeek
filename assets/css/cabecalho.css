@@ -54,6 +54,10 @@
     line-height: 16px;
 }
 
+.cabecalho__botao-login:hover {
+    background-color: #D4E4FA;
+}
+
 @media screen and (max-width: 360px) {
     .cabecalho__botao-login{
         margin: 16px 75.5px 16px 151.5px;        

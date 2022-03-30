@@ -37,7 +37,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;    
 }
 
 .email__usuario {
@@ -47,6 +47,7 @@
     left: calc(50% - 423px/2 - 0.5px);
     top: 259.89px;
     margin-bottom: 24.63px;
+    border-color: transparent;
 }
 
 @media screen and (max-width: 768px) {
@@ -63,6 +64,7 @@
     left: calc(50% - 423px/2);
     top: 24.63px;
     margin-bottom: 24.63px;
+    border-color: transparent;
 }
 
 @media screen and (max-width: 768px) {
@@ -86,6 +88,12 @@
     top: 435px;
     margin-bottom: 91px;
     cursor: pointer;
+    transition: transform 200ms linear;
+}
+
+.botao__login:hover {
+    transform: scale(1.02);
+    background-color: #6495ed;    
 }
 
 @media screen and (max-width: 768px) {
