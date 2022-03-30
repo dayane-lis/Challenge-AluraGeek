@@ -89,6 +89,10 @@ body {
     margin-top: 16px;   
 }
 
+.banner__botao:hover {
+    background: #5595E9;
+}
+
 @media screen and (max-width: 360px) {
     .banner__botao {
         margin-left: 16px;
