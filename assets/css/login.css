@@ -50,6 +50,14 @@
     border-color: transparent;
 }
 
+.email__usuario:hover {
+    background-color: #D4E4FA;
+}
+
+.email__usuario:focus{
+    outline: 0;
+}
+
 @media screen and (max-width: 768px) {
     .email__usuario {
         width: 275px;
@@ -67,6 +75,14 @@
     border-color: transparent;
 }
 
+.senha__usuario:hover {
+    background-color: #D4E4FA
+}
+
+.senha__usuario:focus {
+    outline: 0;
+}
+
 @media screen and (max-width: 768px) {
     .senha__usuario {
         width: 275px;
@@ -81,6 +97,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    border-radius: 4px;
     padding: 12px 16px;
     width: 423px;
     height: 62px;
