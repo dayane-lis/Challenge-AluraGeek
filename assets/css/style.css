@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: #FFFFFF;
     font-family: 'Raleway', sans-serif;
