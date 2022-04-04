@@ -1,13 +1,23 @@
 .botao__add {
     background-color: #2A7AE4;
     color: white;
-    margin-top: 64px;
-    margin-bottom: 16px;
     width: 164px;
     height: 51px;     
 }
 
 .produtos__titulo {
     margin-top: 70.5px;
-    margin-bottom: 22.5px;
+}
+
+.produtos__starwars {
+    padding-top: 22.5px;
+    padding-bottom: 64px;
+}
+
+.produtos__consoles {
+    padding-bottom: 64px;
+}
+
+.produtos__diversos {
+    padding-bottom: 64px;
 }
