@@ -9,7 +9,9 @@ Primeira semana: elaboração da página inicial com cabeçalho, banner, lista d
 
 Segunda semana: página de login. Design responsivo em andamento. Separação dos códigos em arquivos específicos: cabecalho.css, produtos.css e rodape.css.
 
-Terceira semana: página de produtos, página de login adm (em andamento), estilização em CSS, adição de funcionalidades aos botões, ancoragem entre as páginas.
+Terceira semana: página de produtos, página de login adm, estilização em CSS, adição de funcionalidades aos botões, ancoragem entre as páginas.
+
+Quarta semana: página de adição de produtos (em andamento), validação do formulário de login.
 
 
 ### My Badges :medal_sports:
